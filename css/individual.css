@@ -1,0 +1,206 @@
+/*
+	iconfont图标和共有样式
+	LL-2016-4-12
+*/
+@font-face {font-family: "iconfont";
+  src: url('../module/iconfont/iconfont.eot?t=1460465207'); /* IE9*/
+  src: url('../module/iconfont/iconfont.eot?t=1460465207#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../module/iconfont/iconfont.woff?t=1460465207') format('woff'), /* chrome, firefox */
+  url('../module/iconfont/iconfont.ttf?t=1460465207') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../module/iconfont/iconfont.svg?t=1460465207#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{padding:0;margin:0;}
+body{background-color: #f5f5f5;}
+li{list-style: none;}
+a{text-decoration: none;}
+.right{float:right;}
+.left{float:left;}
+.clear{clear:both;}
+.border_none{border:none !important;}
+.font_red{color: #ee4e42 !important;}
+.font_blue{color:#328ad4 !important;}
+.hide{display:none !important;}
+.show{display:block !important;}
+
+/*头部样式*/
+header{width:100%;height: 116px;border-bottom: 4px #ee4e42 solid;margin-bottom: 27px;background-color: #fff;}
+header .head_tlt{max-width:1200px;height:100%;margin:0 auto;background: url(../image/headerimg_180x60.png)no-repeat center center;}
+header .head_tlt a i{font-size:38px;color:#ee4e42;}
+header .head_tlt .classification{float:left;margin-top: 35px;}
+header .head_tlt .account_btn{float:right;margin-top: 35px;}
+
+
+
+.container{width:1200px;margin:0 auto;}
+.container .balance{border:1px solid #d4d4d4;background-color: #ffffff;padding: 0 30px;width: 238px;}
+.container .balance .personal{border-bottom: 1px dashed #d1d1d1;}
+.container .balance .personal .per_btn button{border-radius: 2px;padding: 7px 24px 7px 23px;font-size:24px;border:none;color:#ffffff;}
+.container .balance .personal .per_tlt{font-size: 24px;color:#4d4d4d;margin:28px 0 20px;}
+.per_money{font-size: 24px;color:#000000;}
+.per_money span{color:#000000;}
+.container .balance .personal .pre_show{font-size: 16px;color:#8b8b8b;margin:17px 0 28px 0;}
+.assets{font-size: 16px;color:#4b4b4b;line-height:35px;}
+.assets p{margin:0;}
+.assets .ass_tlt{margin-top: 10px;}
+.assets .ass_money span{color:#ee4e42;}
+.assets .ass_btn{border-bottom: 1px dashed #d1d1d1;}
+.assets .ass_btn a{color:#328ad4;}
+.assets_way ul li a{color:#4b4b4b;}
+.assets_way ul{padding-bottom: 130px;}
+.assets_way ul li{line-height: 36px;border-bottom: 1px dashed #d1d1d1;}
+.assets_way ul li a span{color:#ee4e42;}
+.assets_way ul li a span i{margin-left: 20px;color:#4d4d4d;}
+.assets_way p{color:#808080;line-height: 34px;}
+.assets_way p i{font-size: 24px;color: #ee4e42;margin-right: 12px;vertical-align: middle;}
+.text-center{text-align: center;margin-bottom: 35px;}
+.text-center a{font-size: 14px;color: #808080;}
+
+.container .profit{width: 873px;}
+.container .profit .navigation{line-height: 45px;background: #ffffff;border: 1px solid #d4d4d4;margin-bottom: 28px;}
+.container .profit .navigation a{color:#393939;}
+.container .profit .navigation a.my_age{color:#ee4e42;margin-left: 27px;margin-right: 15px;}
+.container .profit .navigation i{margin-right: 15px;}
+
+.balance .personal .per_btn .balan_charge{background: #328ad4;}
+.balance .personal .per_btn .balan_wals{background: #00c021;}
+.balance .personal .per_btn{margin: 15px 0 10px;}
+
+/*底部样式*/
+footer{min-width:1200px;height:200px;clear:both;font-size:18px;color:#9b9b9b;text-align: center;line-height: 200px;}
+
+
+
+
+/*交易密码设置成功*/
+.success>p{color:#161616 !important;font-size: 26px !important;line-height: 30px !important;font-weight: bold;margin: 79px 0 30px 0 !important;}
+.success p i{color: #ee4e42;font-size: 25px;margin-right: 18px;}
+.success div{font-size: 16px;text-indent: 40px;}
+.success div a{margin: 0 10px;}
+
+/*反馈意见或建议弹窗样式*/
+.pro{height: 100%;margin:0 34px;}
+.pro .pro_head{color:#404040;font-size: 18px;line-height: 30px;padding: 25px 0 10px 0;}
+.pro .pro_area textarea{width:100%;height: 160px;font-size: 14px;line-height: 30px;color:#868686;text-indent: 15px;}
+#pro_yes{width:109px;height: 37px;background: #999999;color:#ffffff;font-size: 24px;line-height: 37px;text-align: center;display: inline-block;border-radius: 3px;margin-top: 20px;}
+.pro_yes{background: #ee4e42 !important;color:#ffffff !important;}
+
+/*修改昵称成功*/
+.nickname .nick_ok p:first-child{margin: 80px 0 0;font-size: 26px;color: #161616;}
+.nickname .nick_ok p:first-child i{font-size: 30px;color: #ee4e42;margin-right: 17px;}
+.nickname .nick_txt p{font-size: 18px;line-height: 30px;color: #404040;text-indent: 52px;margin: 30px 0;}
+.nickname .nick_btn p{font-size: 18px;line-height: 30px;color: #404040;text-indent: 42px;margin: 30px 0;}
+.nickname .nick_btn p a{color:#ee4e42;margin: 0 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

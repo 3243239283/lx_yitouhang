@@ -1,0 +1,100 @@
+.withdrawals{background: #ffffff;border: 1px solid #d4d4d4;padding: 0 126px;height: 878px;}
+.withdrawals>h3{color:#161616;font-size: 26px;line-height: 30px;margin: 55px 0 20px;}
+.withdrawals .draw_one{width:100%;border: 1px solid #d4d4d4;background: #ffffff;height:110px;font-size: 18px;color:#3454545;line-height: 30px;}
+.withdrawals .draw_one .can_t{width: 303px;margin: 23px 0 0 0;text-indent: 37px;border-right: 1px solid #d4d4d4;}
+.withdrawals .draw_one .can_s{width:234px;margin: 23px 0 0 0;text-indent: 37px;}
+#redeem{margin:26px 30px 0 0;color: #ee4e42;width:49px;height:25px;border: 1px solid #ee4e42;border-radius: 2px;font-size: 16px;display: inline-block;line-height: 25px;text-align: center;}
+.withdrawals .draw_one .draw_number{font-size: 30px;color:#282828;}
+.withdrawals .bank .bank_number{color:#343434;font-size: 18px;line-height: 30px;margin:18px 0 10px 0;}
+.withdrawals .bank .card{width:271px;height: 95px;border: 1px solid #d4d4d4;margin: 5px 35px 20px 0;}
+.withdrawals .bank .card .bank_logo{display: inline-block;width: 88px;height: 100%;}
+.withdrawals .bank .card .bank_txt{width:183px;height: 100%;}
+.withdrawals .bank .card .bank_txt p{margin:12px 0 !important;font-size: 18px;color:#666666 !important;}
+.withdrawals .bank .card .bank_txt p .card_class{margin-right: 16px;}
+
+.withdrawals .draw_money p .money_txt{color:#808080;font-size: 16px;margin-left:28px;}
+.withdrawals .draw_money>p{color:#343434;font-size: 18px;line-height: 30px;margin:18px 0 10px 0;}
+.withdrawals .draw_money .money_tlt p{color:#666666;font-size: 15px;}
+.withdrawals .draw_money .money_tlt p span{color:#ee4e42;font-size: 25px;}
+.withdrawals .draw_money .money_tlt p a{margin-left: 30px;color: #328ad4;}
+.withdrawals .draw_money .money_tlt p a i{font-size: 22px;vertical-align: middle;}
+
+#money_form input{text-indent: 37px;line-height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
+
+.withdrawals .tran_pwd{}
+.withdrawals .tran_pwd>p{color:#343434;font-size: 18px;line-height: 30px;margin:18px 0 10px 0;}
+#next_btn{margin-top: 42px;width:184px;height: 52px;background: #ee4e42;font-size: 28px;color:#ffffff;text-align: center;line-height: 52px;display: inline-block;border-radius: 3px;}
+/*确认您的提现信息*/
+.withdrawals .with_money p{font-size: 18px;color:#343434;line-height: 30px;margin: 10px 0;}
+.withdrawals .with_money .with_number{margin-left: 40px;font-size: 30px;color:#ee4e42;}
+.withdrawals .bank .with_footer{font-size: 18px;}
+.withdrawals .bank .with_footer p span{color: #ee4e42;margin:0 5px;font-size: 30px;}
+#ve_form input{text-indent: 37px;line-height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
+
+.submit_btn{margin: 0 30px 0 45px;margin-top: 42px;width:184px;height: 52px;background: #ee4e42;font-size: 28px;color:#ffffff;text-align: center;line-height: 52px;display: inline-block;border-radius: 3px;}
+.step_btn{margin-top: 42px;color:#ee4e42;width:184px;height: 52px;border:1px solid #ee4e42;font-size: 28px;text-align: center;line-height: 52px;display: inline-block;border-radius: 3px;}
+/*提交成功*/
+.with_success{color:#4c4c4c;font-size: 18px !important;line-height: 35px;}
+.with_success p:first-child{margin:25px 0 10px 0;}
+.with_success p span{color:#353535;font-weight: bold;padding: 0 5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*银行*/
+.chinesebank{background: url(../image/bank/chinese_bank.png) no-repeat center center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

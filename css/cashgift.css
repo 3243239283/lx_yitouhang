@@ -1,0 +1,95 @@
+/*我的红包*/
+.cash{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;padding: 0 34px;}
+.cash .cashbtn{margin: 15px 0 13px;border-bottom: 1px solid #b6b6b6;}
+.cash .cashbtn a{color:#b6b6b6;line-height: 45px;font-size: 18px;}
+.box_hide{display:none;}
+.cash_box .redbag ul li{width: 50%;float: left;margin: 57px 0 0;text-align: center;}
+.cash_box .invalid_bag ul li{width: 50%;float: left;margin: 57px 0 0;text-align: center;}
+
+/*人脉收益*/
+.contacts{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;padding: 0 34px;}
+.con_tlt{text-align: center;margin-top: 80px;}
+
+/*积分商城*/
+.mall{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;padding: 0 34px;}
+.mall ul li{display: inline-block;float: left;margin: 0 36px;margin: 53px 36px 10px;}
+
+/*我的银行卡*/
+.mybank{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;padding: 0 116px;}
+.mybank .bank_list{margin: 67px 0 10px 0;}
+.mybank .bank_list .list_box{height: 96px;border: 1px solid #d4d4d4;margin: 0 0 20px 0;}
+.mybank .bank_list .list_box .libox_lf{width: 308px;height: 100%;border-right: 1px solid #d4d4d4;}
+.mybank .bank_list .list_box .libox_rt{width: 328px;height: 100%;}
+.mybank .bank_list .list_box .libox_lf .bankimg{display: inline-block;height: 100%;width: 136px;text-align: right;}
+.mybank .bank_list .list_box .libox_lf .bankimg img{margin: 29px 0;}
+.mybank .bank_list .list_box .libox_lf .banktxt{margin: 18px 10px;}
+.mybank .bank_list .list_box .libox_lf .banktxt p{color:#333333;line-height: 30px;}
+.mybank .bank_list .list_box .libox_lf .banktxt p span{color:#808080;}
+.mybank .bank_list .list_box .libox_rt div{height:50%;}
+.mybank .bank_list .list_box .libox_rt div:first-child{border-bottom: 1px solid #d4d4d4;}
+.mybank .bank_list .list_box .libox_rt div span{font-size: 14px;color: #333333;width: 31.4%;display: inline-block;text-align: center;line-height: 49px;border-right: 1px solid #d4d4d4;}
+.border_right_no{border-right: none !important;}
+.mybank .bank_list_tlt{color:#4c4c4c;font-size: 14px;line-height: 30px;}
+
+/*邀请好友*/
+.invitation{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;padding: 0 127px;}
+.invitation h3{color: #161616;font-size: 26px;line-height: 30px;margin: 53px 0 25px 0;}
+.invitation p{color:#343434;font-size: 18px;line-height: 30px;}
+.invitation .inva_txt .inva_http input{width: 507px;line-height: 37px;font-size: 18px;color: #4c4c4c;text-align: center;border: 1px solid #b6b6b6;}
+.invitation .inva_txt .inva_http #fz_btn{cursor: pointer;display: inline-block;width: 108px;line-height: 39px;background: #e6e6e6;text-align: center;color: #ee4e42;font-size: 18px;}
+.invitation .inva_txt p{margin: 15px 0 24px 0;}
+.invitation .inva_txt .inva_wecom{height: 133px;border: 1px solid #b6b6b6;}
+.invitation .inva_txt .inva_wecom p span{font-size: 20px;color:#404040;line-height: 30px;font-weight: bold;margin: 0 15px 0 0;}
+.invitation .inva_txt .inva_wecom p{margin: 20px 20px;color:#999999;}
+
+/*账单日历*/
+.calendar{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;padding: 0 127px;}
+.calendar h3{color: #161616;font-size: 26px;line-height: 30px;margin: 53px 0 25px 0;}
+.ca_box{height: 407px;border: 1px solid #d4d4d4;}
+
+/*福利中心*/
+.welfare{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;}
+.welfare .wel_box{text-align: center;margin: 58px 0 10px;}
+.welfare .wel_box a{margin: 0 15px;display: inline-block;}
+
+/*活动大厅*/
+.activity{height: 878px;}
+.activity .acti_box{background: #ffffff;height: 218px;border:1px solid #d4d4d4;margin-bottom: 17px;}
+.activity .acti_box .acti_img{display: inline-block;padding: 21px 32px;float: left;}
+.activity .acti_box .acti_txt{display: inline-block;width: 320px;text-align: center;margin:41px 0 0;}
+.activity .acti_box .acti_txt .ac_t_tlt{color:#393939;font-size:22px;line-height: 30px;}
+.activity .acti_box .acti_txt .ac_t_txt{font-size: 16px;color: #737373;line-height: 30px;margin: 14px 0;}
+.activity .acti_box .acti_txt .ac_join_btn{border: 1px solid #b5b5b5;padding: 8px 29px;border-radius:3px;font-size: 26px;color:#393939;display: inline-block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
