@@ -33,7 +33,7 @@ a{text-decoration: none;}
 /*头部样式*/
 header{width:100%;height: 116px;border-bottom: 4px #ee4e42 solid;margin-bottom: 27px;background-color: #fff;}
 header .head_tlt{max-width:1200px;height:100%;margin:0 auto;background: url(../image/headerimg_180x60.png)no-repeat center center;}
-header .head_tlt a i{font-size:38px;color:#ee4e42;}
+header .head_tlt a i{font-size:30px;color:#ee4e42;}
 header .head_tlt .classification{float:left;margin-top: 35px;}
 header .head_tlt .account_btn{float:right;margin-top: 35px;}
 

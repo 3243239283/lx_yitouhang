@@ -174,7 +174,7 @@
 .address .address_box .add .addson .son_tlt .default_add{margin: 6px 0 0 0;width:62px;height: 17px;background: #999999;color:#ffffff;font-size: 12px;display: inline-block;line-height: 17px;text-align: center;}
 .add_address{width:100%;height: 52px;border: 1px dashed #d1d1d1;line-height: 52px;font-size: 20px;}
 .add_address>p{margin: 10px 15px !important;}
-.add_address>p>i{color:#bababa;font-size: 25px;margin-right: 5px;}
+.add_address>p>i{color:#bababa;font-size: 20px;margin-right: 5px;}
 .add_address a{color: #404040;}
 			/*删除地址弹窗样式*/
 .de_txt {text-align: center;}
