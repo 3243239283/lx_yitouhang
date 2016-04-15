@@ -1,4 +1,4 @@
-.withdrawals{background: #ffffff;border: 1px solid #d4d4d4;padding: 0 126px;height: 878px;}
+.withdrawals{background: #ffffff;border: 1px solid #d4d4d4;padding: 0 126px;height: 886px;}
 .withdrawals>h3{color:#161616;font-size: 26px;line-height: 30px;margin: 55px 0 20px;}
 .withdrawals .draw_one{width:100%;border: 1px solid #d4d4d4;background: #ffffff;height:110px;font-size: 18px;color:#3454545;line-height: 30px;}
 .withdrawals .draw_one .can_t{width: 303px;margin: 23px 0 0 0;text-indent: 37px;border-right: 1px solid #d4d4d4;}
@@ -37,16 +37,6 @@
 .with_success{color:#4c4c4c;font-size: 18px !important;line-height: 35px;}
 .with_success p:first-child{margin:25px 0 10px 0;}
 .with_success p span{color:#353535;font-weight: bold;padding: 0 5px;}
-
-
-
-
-
-
-
-
-
-
 
 
 

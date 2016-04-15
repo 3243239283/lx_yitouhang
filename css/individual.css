@@ -42,11 +42,11 @@ header .head_tlt .account_btn{float:right;margin-top: 35px;}
 .container{width:1200px;margin:0 auto;}
 .container .balance{border:1px solid #d4d4d4;background-color: #ffffff;padding: 0 30px;width: 238px;}
 .container .balance .personal{border-bottom: 1px dashed #d1d1d1;}
-.container .balance .personal .per_btn button{border-radius: 2px;padding: 7px 24px 7px 23px;font-size:24px;border:none;color:#ffffff;}
 .container .balance .personal .per_tlt{font-size: 24px;color:#4d4d4d;margin:28px 0 20px;}
 .per_money{font-size: 24px;color:#000000;}
 .per_money span{color:#000000;}
 .container .balance .personal .pre_show{font-size: 16px;color:#8b8b8b;margin:17px 0 28px 0;}
+.container .balance .personal .pre_show a{color: #8b8b8b;}
 .assets{font-size: 16px;color:#4b4b4b;line-height:35px;}
 .assets p{margin:0;}
 .assets .ass_tlt{margin-top: 10px;}
@@ -62,16 +62,16 @@ header .head_tlt .account_btn{float:right;margin-top: 35px;}
 .assets_way p i{font-size: 24px;color: #ee4e42;margin-right: 12px;vertical-align: middle;}
 .text-center{text-align: center;margin-bottom: 35px;}
 .text-center a{font-size: 14px;color: #808080;}
-
 .container .profit{width: 873px;}
 .container .profit .navigation{line-height: 45px;background: #ffffff;border: 1px solid #d4d4d4;margin-bottom: 28px;}
 .container .profit .navigation a{color:#393939;}
 .container .profit .navigation a.my_age{color:#ee4e42;margin-left: 27px;margin-right: 15px;}
 .container .profit .navigation i{margin-right: 15px;}
 
-.balance .personal .per_btn .balan_charge{background: #328ad4;}
-.balance .personal .per_btn .balan_wals{background: #00c021;}
 .balance .personal .per_btn{margin: 15px 0 10px;}
+.container .balance .personal .per_btn a{border-radius: 2px;padding: 7px 24px 7px 23px;font-size:24px;border:none;color:#ffffff;}
+.balance .personal .per_btn .balan_charge{background: #328ad4;}
+.balance .personal .per_btn .balan_wals{background: #00c021;margin-left: 36px;}
 
 /*底部样式*/
 footer{min-width:1200px;height:200px;clear:both;font-size:18px;color:#9b9b9b;text-align: center;line-height: 200px;}

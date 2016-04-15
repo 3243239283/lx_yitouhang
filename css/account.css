@@ -4,9 +4,11 @@
 .profit .profit_number ul li{line-height: 30px;color:#000000;font-size: 16px;font-weight: 600;}
 .profit .profit_number ul li i{color:#f56f69;font-size: 25px !important;}
 .agency{line-height: 30px;margin: 13px 20px;font-size: 16px;color: #5b5b5b;width: 288px;display: inline-block;}
+.agency .age_tlt i{color:#525252;}
 .age_name .realname{width:65px;}
+.age_name .realname i{font-size: 62px;line-height: 50px;color: #808080;}
 .go_auth{width:200px;}
-#go_name{margin-left: 25px;}
+#go_name{margin-left: 25px;color:#328ad4;}
   /*pro_two*/
 .pro_two{background-color: #ffffff;margin-top: 19px;height:105px;border:1px solid #d1d1d1;position:relative;}
 .pro_two .t_tlt{position:absolute;width: 122px;height: 122px;left:-1px;top:-9px;background: url(../image/my_122x122.png) no-repeat;}
