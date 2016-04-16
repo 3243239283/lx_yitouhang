@@ -18,6 +18,12 @@ require(['jquery','layer','currency','cssjs!layercss'], function (){
           content: '<div class="tlt"><a href="javascript:" class="iconfont">&#xe627;</a><p>确认删除您的地址？</p><a id="de_ok" href="javascript:">确认</a><a id="de_no" href="javascript:">取消</a></div>'
         });
     });
+    if($('#de_ok')){
+      $('#de_ok').click(function(){
+        
+      });
+    }
+    
     /*设为默认地址*/
     $('.do_default').click(function(){
         $(this).parent().parent().find(".default_add").removeClass('hide');

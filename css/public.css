@@ -45,7 +45,7 @@
 .invitation{background: #ffffff;border: 1px solid #d4d4d4;height: 886px;padding: 0 127px;}
 .invitation h3{color: #161616;font-size: 26px;line-height: 30px;margin: 53px 0 25px 0;}
 .invitation p{color:#343434;font-size: 18px;line-height: 30px;}
-.invitation .inva_txt .inva_http input{width: 507px;line-height: 37px;font-size: 18px;color: #4c4c4c;text-align: center;border: 1px solid #b6b6b6;}
+.invitation .inva_txt .inva_http input{width: 507px;line-height: 37px;height:37px;font-size: 18px;color: #4c4c4c;text-align: center;border: 1px solid #b6b6b6;}
 .invitation .inva_txt .inva_http #fz_btn{cursor: pointer;display: inline-block;width: 108px;line-height: 39px;background: #e6e6e6;text-align: center;color: #ee4e42;font-size: 18px;}
 .invitation .inva_txt p{margin: 15px 0 24px 0;}
 .invitation .inva_txt .inva_wecom{height: 133px;border: 1px solid #b6b6b6;}
@@ -74,7 +74,7 @@
 /*在线充值*/
 .recharge{background: #ffffff;border: 1px solid #d4d4d4;padding: 0 126px;height: 886px;}
 .recharge>h3{color:#161616;font-size: 26px;line-height: 30px;margin: 55px 0 20px;}
-#re_money input{text-indent: 37px;line-height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
+#re_money input{text-indent: 37px;line-height: 43px;height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
 .recharge .re_tlt>p{color:#343434;font-size: 18px;line-height: 30px;margin: 30px 0 15px 0;}
 #go_pay{width: 184px;height:37px;margin-top: 35px;background: #ee4e42;font-size: 20px;color:#ffffff;text-align: center;line-height: 37px;display: inline-block;border-radius: 3px;}
 
@@ -82,17 +82,17 @@
 .nickname{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;padding: 0 127px;}
 .nickname h3{color: #161616;font-size: 26px;line-height: 30px;margin: 53px 0 25px 0;}
 .nickname .nick_box p{color: #343434;font-size: 18px;line-height: 30px;margin: 30px 0 15px 0;}
-.nickname .nick_box input{text-indent: 37px;line-height: 43px;border: 1px solid #b6b6b6;width: 100%;font-size: 18px;}
+.nickname .nick_box input{text-indent: 37px;line-height: 43px;height: 43px;border: 1px solid #b6b6b6;width: 100%;font-size: 18px;}
 #nickkeep{width: 184px;height: 37px;line-height: 37px;display: inline-block;background: #ee4e42;text-align: center;color: #ffffff;border-radius: 3px;font-size: 20px;margin-top: 35px;}
 
 /*修改手机号码*/
-.phone{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;position:relative;}
+.phone{background: #ffffff;border: 1px solid #d4d4d4;height: 886px;position:relative;}
 .phone .drop_mask .drop{width:813px;height: 67px;background: #fff4c8;margin: 21px auto 30px;line-height: 30px;}
 .phone .phone_box{padding: 0 126px;}
 .phone .phone_box>h3{color:#161616;font-size: 26px;line-height: 30px;}
 .phone .phone_box p{color: #343434;font-size: 18px;line-height: 30px;margin: 30px 0 15px 0;}
 #phone_form{margin-top: 118px;}
-#phone_form input{text-indent: 37px;line-height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
+#phone_form input{text-indent: 37px;line-height: 43px;height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
 #keep{width: 184px;height: 52px;margin-top: 47px;background: #ee4e42;font-size: 28px;color:#ffffff;text-align: center;line-height: 52px;display: inline-block;border-radius: 3px;}
 .phone .drop_mask{position:absolute;width:100%;height:100%;top:0;left:0;background: rgba(225,225,225,0.4);}
 .phone .drop_mask .d_box p{font-size: 18px;line-height:67px;color:#383838;}
@@ -105,11 +105,18 @@
 .signin{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;padding: 0 126px;}
 .signin .signin_box>h3{color:#161616;font-size: 26px;line-height: 30px;margin:53px 0 25px 0;}
 .signin .signin_box p{color: #343434;font-size: 18px;line-height: 30px;margin: 30px 0 15px 0;}
-#signin_form input{text-indent: 37px;line-height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
+#signin_form input{text-indent: 37px;line-height: 43px;height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
 #keep{width: 184px;height: 52px;margin-top: 47px;background: #ee4e42;font-size: 28px;color:#ffffff;text-align: center;line-height: 52px;display: inline-block;border-radius: 3px;}
-#transaction_form input{text-indent: 37px;line-height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
+.signin input{text-indent: 37px;line-height: 52px;height: 52px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
 #tr_next{width: 184px;height: 52px;margin-top: 47px;background: #ee4e42;font-size: 28px;color:#ffffff;text-align: center;line-height: 52px;display: inline-block;border-radius: 3px;}
 #tr_preservation{width: 184px;height: 52px;margin-top: 47px;background: #ee4e42;font-size: 28px;color:#ffffff;text-align: center;line-height: 52px;display: inline-block;border-radius: 3px;}
+.trancode{position:relative;}
+.trancode input{width:495px;}
+.trancode a{position: absolute;right: 1px;top: 0;display: inline-block;width: 122px;height: 54px;background: #e6e6e6;color: #ee4e42;font-size: 16px;text-align: center;line-height: 54px;}
+.code_list{height: 54px;width:100%;position: relative;}
+.code_list label.error{position: absolute;top: 60px;left: 40px;color: #ee4e42;}
+
+
 
 /*实名认证*/
 .realname{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;}
@@ -118,7 +125,7 @@
 .realname .drop .d_box{position: relative;margin:0 74px;}
 .realname .drop .d_box i{position:absolute;left:-30px;top:0;color:#5b9fd2;}
 .realname .real_box{padding: 0 126px;}
-#rename input{text-indent: 37px;line-height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
+#rename input{text-indent: 37px;line-height: 43px;height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
 .realname .real_box p{color: #343434;font-size: 18px;line-height: 30px;margin: 30px 0 15px 0;}
 #re_start{width: 184px;height: 52px;margin-top: 41px;background: #ee4e42;font-size: 28px;color:#ffffff;text-align: center;line-height: 52px;display: inline-block;border-radius: 3px;}
 
@@ -130,7 +137,7 @@
 .redeem .re_can p span{font-size: 30px;color:#282828;line-height: 30px;}
 .redeem .re_can p:first-child{margin: 17px 0 10px;}
 .redeem .red_box p{color: #343434;font-size: 18px;line-height: 30px;margin: 30px 0 15px 0;}
-.redeem .red_box input{text-indent: 37px;line-height: 43px;border: 1px solid #b6b6b6;width: 100%;font-size: 18px;}
+.redeem .red_box input{text-indent: 37px;line-height: 43px;height: 43px;border: 1px solid #b6b6b6;width: 100%;font-size: 18px;}
 #re_btn{width: 184px;height: 52px;background: #f94a14;margin-top: 34px;display: inline-block;color: #ffffff;text-align: center;line-height: 52px;border-radius: 3px;font-size: 28px;}
 /*赎回成功*/
 .redeem .reok p:first-child{margin: 80px 0 0;font-size: 26px;color: #161616;}
@@ -185,7 +192,7 @@
 #de_no{background: none;color: #ee4e42;border: 1px solid #ee4e42;}
 			/*添加收件地址*/
 .address .address_box p{color: #343434;font-size: 18px;line-height: 30px;margin: 30px 0 15px 0;}
-#add_form input{text-indent: 37px;line-height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
+#add_form input{text-indent: 37px;line-height: 43px;height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
 #add_keep{width: 184px;height: 52px;margin-top: 47px;background: #ee4e42;font-size: 28px;color:#ffffff;text-align: center;line-height: 52px;display: inline-block;border-radius: 3px;}
 
 
