@@ -10,33 +10,57 @@ require(['jquery','layer','currency','validata','validMethod','cssjs!layercss'],
           required: true,
           digits:true,
           rangelength:[6,6]
-          //remote:{}    //验证验证码是否存在  
+          remote:{            //验证验证码是否存在
+            type:"POST",
+            url:"",
+            data:{
+              code:function(){return $(".code").val();}
+            }
+          }                
         },
         name:{
-          required: true
+          required: true,
+          remote:{            //验证验姓名是否存在
+            type:"POST",
+            url:"",
+            data:{
+              name:function(){return $(".name").val();}
+            }
+          }
         },
         idcard:{
           required: true,
-          /*isIdCardNo:true*/
+          isIdCardNo:true,
+          remote:{            //验证验身份证号码是否存在
+            type:"POST",
+            url:"",
+            data:{
+              idcard:function(){return $(".idcard").val();}
+            }
+          }
         }
       },
       messages: {
         code:{
           required:'验证码不能为空',
           digits:'验证码必须是整数',
-          rangelength:'请输入6位字符的正确验证码'
+          rangelength:'请输入6位字符的正确验证码',
+          remote:'验证码错误'
         },
         name:{
-          required: '姓名不能为空'
+          required: '姓名不能为空',
+          remote:'姓名不存在'
         },
         idcard:{
-          required: '身份证号码不能为空'
+          required: '身份证号码不能为空',
+          remote:'身份证号码错误'
         }
       }
     });
 
     $('#tr_next').click(function(){
-      if($('#tran_formtwo').valid()){
+      
+      if($('#tran_formtwo').submit()){
         $('.trantwo').hide();
         $('.tranone').show();
         return true;        

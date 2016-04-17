@@ -154,7 +154,7 @@
 /*交易记录*/
 .record{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;padding:0 28px;}
 .record .record_head{margin: 28px 0 22px;}
-.record .record_head input{width: 160px;height: 39px;border: 1px solid #d4d4d4;border-radius: 3px;font-size: 18px;color:#404040;line-height: 39px;}
+.record .record_head input{text-align: center;width: 160px;height: 39px;border: 1px solid #d4d4d4;border-radius: 3px;font-size: 18px;color:#404040;line-height: 39px;}
 .record .record_head label{padding:0 5px;}
 .record .record_head select{width: 160px;height: 39px;border: 1px solid #d4d4d4;border-radius: 3px;font-size: 18px;color:#404040;line-height: 39px;}
 .re_class{font-size: 16px;color: #4c4c4c;line-height: 30px;margin-bottom: 22px;font-weight: bold;}

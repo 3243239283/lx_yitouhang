@@ -20,6 +20,7 @@
 .withdrawals .draw_money .money_tlt p a i{font-size: 22px;vertical-align: middle;}
 
 #money_form input{text-indent: 37px;line-height: 43px;height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;margin: 5px 0 10px;}
+#money_form .errorbox{text-indent: 37px;color:#ee4e42;}
 
 .withdrawals .tran_pwd{}
 .withdrawals .tran_pwd>p{color:#343434;font-size: 18px;line-height: 30px;margin:18px 0 10px 0;}
