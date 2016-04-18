@@ -1,5 +1,5 @@
 /*账户设置*/
-.container .profit .sett{background: #ffffff;border: 1px solid #d4d4d4;padding: 0 27px;height: 878px;}
+.container .profit .sett{background: #ffffff;border: 1px solid #d4d4d4;padding: 0 27px;height:886px;}
 .container .profit .sett ul{margin: 12px 0 0 0;}
 .container .profit .sett ul li{line-height: 59px;border-bottom:1px dashed #d1d1d1;}
 .container .profit .sett ul li .set_tlt{font-size: 18px;color:#787878;width: 155px;display: inline-block;}
@@ -79,7 +79,7 @@
 #go_pay{width: 184px;height:37px;margin-top: 35px;background: #ee4e42;font-size: 20px;color:#ffffff;text-align: center;line-height: 37px;display: inline-block;border-radius: 3px;}
 
 /*修改昵称*/
-.nickname{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;padding: 0 127px;}
+.nickname{background: #ffffff;border: 1px solid #d4d4d4;height:886px;padding: 0 127px;}
 .nickname h3{color: #161616;font-size: 26px;line-height: 30px;margin: 53px 0 25px 0;}
 .nickname .nick_box p{color: #343434;font-size: 18px;line-height: 30px;margin: 30px 0 15px 0;}
 .nickname .nick_box input{text-indent: 37px;line-height: 43px;height: 43px;border: 1px solid #b6b6b6;width: 100%;font-size: 18px;}
@@ -102,7 +102,7 @@
 .phone .drop_mask .drop .icon i{font-size: 65px;}
 
 /*修改登录密码*/
-.signin{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;padding: 0 126px;}
+.signin{background: #ffffff;border: 1px solid #d4d4d4;height:886px;padding: 0 126px;}
 .signin .signin_box>h3{color:#161616;font-size: 26px;line-height: 30px;margin:53px 0 25px 0;}
 .signin .signin_box p{color: #343434;font-size: 18px;line-height: 30px;margin: 30px 0 15px 0;}
 #signin_form input{text-indent: 37px;line-height: 43px;height: 43px;border:1px solid #b6b6b6;width: 100%;font-size: 18px;}
@@ -119,7 +119,7 @@
 
 
 /*实名认证*/
-.realname{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;}
+.realname{background: #ffffff;border: 1px solid #d4d4d4;height:886px;}
 .realname .drop{width:813px;height: 67px;background: #fff4c8;margin: 21px auto 30px;line-height: 30px;}
 .realname .drop .d_box p{font-size: 18px;line-height: 30px;color:#383838;}
 .realname .drop .d_box{position: relative;margin:0 74px;}
@@ -130,7 +130,7 @@
 #re_start{width: 184px;height: 52px;margin-top: 41px;background: #ee4e42;font-size: 28px;color:#ffffff;text-align: center;line-height: 52px;display: inline-block;border-radius: 3px;}
 
 /*赎回*/
-.redeem{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;padding: 0 127px;}
+.redeem{background: #ffffff;border: 1px solid #d4d4d4;height: 886px;padding: 0 127px;}
 .redeem h3{color: #161616;font-size: 26px;line-height: 30px;margin: 53px 0 25px 0;}
 .redeem .re_can{height: 110px;border:1px solid #b6b6b6;text-indent: 37px;}
 .redeem .re_can p{font-size: 18px;color:#454545;line-height: 30px;}
@@ -152,7 +152,7 @@
 .reok .rebtn_box .go_back{border:1px solid #ee4e42;color:#ee4e42;}
 
 /*交易记录*/
-.record{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;padding:0 28px;}
+.record{background: #ffffff;border: 1px solid #d4d4d4;height:886px;padding:0 28px;}
 .record .record_head{margin: 28px 0 22px;}
 .record .record_head input{text-align: center;width: 160px;height: 39px;border: 1px solid #d4d4d4;border-radius: 3px;font-size: 18px;color:#404040;line-height: 39px;}
 .record .record_head label{padding:0 5px;}
@@ -169,7 +169,7 @@
 #rebtn{font-size: 18px;background: red;color: #ffffff;padding: 5px 12px;border-radius: 3px;margin-left: 20px;}
 
 /*我的地址*/
-.address{background: #ffffff;border: 1px solid #d4d4d4;height: 878px;padding: 0 126px;}
+.address{background: #ffffff;border: 1px solid #d4d4d4;height:886px;padding: 0 126px;}
 .address .address_box>h3{color:#161616;font-size: 26px;line-height: 30px;margin: 55px 0 20px;}
 .address .address_box .add .addson{width:100%;height: 88px;border: 1px dashed #d1d1d1;margin:19px 0;}
 .address .address_box .add .addson span{color:#404040;font-size: 18px;line-height: 30px;}
