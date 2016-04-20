@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>壹投行</title>
     <!--  公共样式 -->
-    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
     <link rel="stylesheet" type="text/css" href="../css/individual.css">
     <!--  私有样式 -->
     <link rel="stylesheet" type="text/css" href="../css/public.css">
@@ -71,14 +70,14 @@
                   <a href="activity.html">活动大厅<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
                 </li>
               </ul>
-              <p class="text-center"><i class="iconfont">&#xe608;</i><a id="proposal" href="javascript:">反馈意见或建议</a></p>
+              <p class="text-center"><i class="iconfont">&#xe602;</i><a id="proposal" href="javascript:">反馈意见或建议</a></p>
             </div>
           </div>
 
           <!--  左侧部分开始 -->
           <div class="profit right">
               <div class="navigation">
-                <a class="my_age" href="javascript:">我的时代</a>
+                <a class="my_age" href="javascript:">我的壹投行</a>
                 <i class="iconfont">&#xe621;</i>
                 <a href="javascript:">提现</a>
               </div>
@@ -87,7 +86,10 @@
                 <form id="re_money">                
                   <div class="re_tlt">
                     <p>充值金额</p>
-                    <input name="chargemoney" placeholder="请输入您要充值的金额,最少1元"></input>
+                    <div class="reput_box">
+                      <input name="chargemoney" placeholder="请输入您要充值的金额,最少1元"></input>
+                      <div class="errorbox"></div>
+                    </div>                    
                   </div>
                   <a id="go_pay" href="javascript:">去支付</a>
                 </form>
@@ -103,7 +105,7 @@
     <!-- 底部结束 -->
 
     <!-- 引入require模块，关联../js/index.js -->
-    <script src="../module/requirejs/require.js" data-main="../js/index"></script>
+    <script src="../module/requirejs/require.js" data-main="../js/recharge"></script>
     <!-- 单独定义插件模块插件js源 -->
     <script src="../js/require-config.js"></script>
 	

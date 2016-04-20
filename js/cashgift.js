@@ -19,6 +19,11 @@ require(['jquery','currency','zclip','WdatePicker'], function (){
         return $('#http_txt').val();
       }
     });
+
+    /*未实名无法绑定银行卡 遮罩层提示语关闭按钮*/
+    $('.maskbox i').click(function(){
+      $('.maskbox').hide();
+    });
     
     
 });

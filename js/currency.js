@@ -13,5 +13,14 @@ require(['jquery','layer','currency','cssjs!layercss'], function (){
             content: '<div class="pro"><p class="pro_head">请描述您的意见或建议</p><div class="pro_area"><textarea placeholder="请输入200字以内信息"></textarea></div><a id="pro_yes" href="javascript:">提交</a></div>'
           });
       });
-    }    
+    };
+
+    //账户设置提醒开关
+    $('.switch a').click(function(){
+      if($(this).attr('value') == 0){
+        $(this).css('background-position','-5px -69px').attr('value','1');
+      }else if($(this).attr('value') == 1){
+        $(this).css('background-position','-5px -8px').attr('value','0');
+      }      
+    });
 });

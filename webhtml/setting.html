@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>壹投行</title>
     <!--  公共样式 -->
-    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
     <link rel="stylesheet" type="text/css" href="../css/individual.css">
     <!--  私有样式 -->
     <link rel="stylesheet" type="text/css" href="../css/public.css">
@@ -71,14 +70,14 @@
                   <a href="activity.html">活动大厅<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
                 </li>
               </ul>
-              <p class="text-center"><i class="iconfont">&#xe608;</i><a id="proposal" href="javascript:">反馈意见或建议</a></p>
+              <p class="text-center"><i class="iconfont">&#xe602;</i><a id="proposal" href="javascript:">反馈意见或建议</a></p>
             </div>
           </div>
 
           <!--  左侧部分开始 -->
           <div class="profit right">
               <div class="navigation">
-                <a class="my_age" href="javascript:">我的时代</a>
+                <a class="my_age" href="javascript:">我的壹投行</a>
                 <i class="iconfont">&#xe621;</i>
                 <a href="javascript:">账户设置</a>
               </div>
@@ -96,13 +95,15 @@
                   </li>
                   <li>
                     <span class="set_tlt">实名认证</span>
-                    <span class="set_txt">未认证</span>
-                    <a class="set_btn" href="realname.html">认证</a>
+                    <span class="set_txt name_no">未认证</span>
+                    <span class="name_ok">已认证</span>
+                    <a class="set_btn name_btn" href="realname.html">认证</a>
                   </li>
                   <li>
                     <span class="set_tlt">交易密码</span>
-                    <span class="set_txt">未设置</span>
-                    <a class="set_btn" href="transactionPwd.html">设置交易密码</a>
+                    <span class="set_txt tranpwd_no">未设置</span>
+                    <span class="set_txt tranpwd_ok">已设置</span>
+                    <a class="set_btn tranpwdbtn" href="transactionPwd.html">设置交易密码</a>
                   </li>
                   <li>
                     <span class="set_tlt">登录密码</span>
@@ -112,22 +113,28 @@
                   <li>
                     <span class="set_tlt">收货地址</span>
                     <div class="one_line right">
-                      <span class="set_txt">未添加地址</span>
-                      <a class="set_btn" href="address.html">管理地址</a>
+                      <span class="set_txt address_have">未添加地址</span>
+                      <a class="set_btn address_add" href="address.html">管理地址</a>
                     </div>                    
                   </li>
                   <li>
                     <span class="set_tlt">投资到期提醒</span>
                     <div class="one_line right">                      
                       <span class="set_txt">投资到期以后会以短信方式提醒您</span>
-                      <a href="javascript:">修改</a>
+                      <div class="switch">
+                        <a value="" href="javascript:"></a>
+                      </div>
                     </div>
                   </li>
                   <li>
                     <span class="set_tlt">好友投资提醒</span>
                     <div class="one_line right">
                       <span class="set_txt">接受好友发送的卡牌使用通知</span>
-                      <a href="javascript:">修改</a>
+                      <div class="switch">
+                        <div class="switch">
+                        <a value="" href="javascript:"></a>
+                      </div>
+                      </div>
                     </div>
                   </li>
                 </ul>
@@ -143,7 +150,7 @@
     <!-- 底部结束 -->
 
     <!-- 引入require模块，关联../js/index.js -->
-    <script src="../module/requirejs/require.js" data-main="../js/index"></script>
+    <script src="../module/requirejs/require.js" data-main="../js/setting"></script>
     <!-- 单独定义插件模块插件js源 -->
     <script src="../js/require-config.js"></script>
 	

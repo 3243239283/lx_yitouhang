@@ -1,9 +1,46 @@
-//通过主模块，运用AMD规范定义的的require()函数调用其他模块。这里分别是(jquery.js)、、、等子模块。
-require(['jquery','currency'], function (){
-    //require()函数接受两个参数。
-    //第一个参数是一个数组，表示所依赖的模块，上例就是['moduleA', 'moduleB', 'moduleC']，即主模块依赖这三个模块；
-    //第二个参数是一个回调函数，当前面指定的模块都加载成功后，它将被调用。
-    //加载的模块会以参数形式传入该函数，从而在回调函数内部就可以使用这些模块。
-    
+//通过主模块，运用AMD规范定义的的require()函数调用其他模块。
+require(['jquery','currency','validata','validMethod'], function (){
+    $('#rename').validate({
+      	rules: {
+        	name:{
+          		required: true,
+          		remote:{
+	          		type:"POST",
+               		url:"",
+                	data:{
+                		txpassword:function(){return $(".tx_password").val();}
+               		}
+             	}
+	        },
+	        idcard:{
+	          	required: true,
+	          	isIdCardNo:true,
+	          	remote:{
+	          		type:"POST",
+               		url:"",
+                	data:{
+                		txpassword:function(){return $(".tx_password").val();}
+               		}
+             	}
+	        }
+	    },
+    	messages: {
+        	name:{
+          		required:'姓名不能为空',
+          		remote:'姓名信息错误'
+        	},
+        	idcard:{
+          		required: '身份证号码不能为空',
+          		remote:'身份证号码错误'
+        	}
+    	},
+    	errorPlacement:function(error,element) {  
+    		error.appendTo(element.next(".error_txt"));
+ 	  	}
+
+    });
+    $('#re_start').click(function(){
+      $('#rename').submit();
+    })
 
 });

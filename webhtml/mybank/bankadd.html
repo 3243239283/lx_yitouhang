@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <title>壹投行</title>
     <!--  公共样式 -->
-    <link rel="stylesheet" type="text/css" href="../css/individual.css">
+    <link rel="stylesheet" type="text/css" href="../../css/individual.css">
     <!--  私有样式 -->
-    <link rel="stylesheet" type="text/css" href="../css/account.css">
+    <link rel="stylesheet" type="text/css" href="../../css/public.css">
   </head>
   <body>
     <!-- 头部开始 -->
@@ -67,7 +67,7 @@
                   <a href="welfare.html">福利中心<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
                 </li>
                 <li>
-                    <a href="activity.html">活动大厅<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
+                  <a href="activity.html">活动大厅<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
                 </li>
               </ul>
               <p class="text-center"><i class="iconfont">&#xe602;</i><a id="proposal" href="javascript:">反馈意见或建议</a></p>
@@ -75,68 +75,45 @@
           </div>
 
           <!--  左侧部分开始 -->
-          <div class="profit right">
-            <div class="pro_one">
-              <div class="profit_number left">
-                  <ul>
-                    <li>
-                      <div class="num_tlt">
-                        账号:<span>182 *** *294<i class="iconfont">&#xe61f;</i></span>
-                        <i class="iconfont right">&#xe610;</i>
+          <div class="profit right show">
+              <div class="navigation">
+                <a class="my_age" href="javascript:">我的壹投行</a>
+                <i class="iconfont">&#xe621;</i>
+                <a href="javascript:">我的银行卡</a>
+              </div>
+              <div class="mybank">
+                  <div class="bank_list">
+                    <div class="list_box">
+                      <div class="libox_lf left">
+                        <div class="bankimg left"><img src="../../image/bank/china_bank.png" alt=""></div>
+                        <div class="banktxt left">
+                          <p>中国银行</p>
+                          <p>借记卡  <span>尾号</span><span>2316</span></p>
+                        </div>
                       </div>
-                    </li>
-                    <li>
-                      <i class="iconfont">&#xe609;</i>
-                      <i class="iconfont">&#xe609;</i>
-                      <i class="iconfont">&#xe609;</i>
-                      <i class="iconfont">&#xe609;</i>
-                    </li>
-                    <li>安全等级:<span>低</span></li>
-                    <li>上次登录:<span>2016/02/22 16:22:23  浙江省杭州市</span></li>
-                  </ul>
-              </div>
-              <div class="agency">
-                  <div class="age_tlt">
-                    <span>代办事项</span>
-                    <div class="right">
-                      <a href="javascript:"><i class="iconfont">&#xe625;</i></a>
-                      <a href="javascript:"><i class="iconfont">&#xe621;</i></a>
+                      <div class="libox_rt left">
+                        <div class="rt_top">
+                          <span>单次</span>
+                          <span>每日</span>
+                          <span class="border_right_no">每月</span>
+                        </div>
+                        <div class="rt_bom">
+                          <span>5万</span>
+                          <span>20万</span>
+                          <span class="border_right_no">无限额</span>
+                        </div>
+                      </div>
                     </div>
+
                   </div>
-                  <div class="age_name">
-                    <div class="realname left">
-                      <i class="iconfont">&#xe61c;</i>
-                    </div>                  
-                    <div class="right go_auth">
-                      不通过实名认证将无法绑定银行卡并提现
-                    </div>
-                    <div style="clear:both;">实名认证<a id="go_name" href="javascript:">去认证</a></div>
+                  <div class="bank_list_tlt">
+                     <p>为保障用户资金安全，自2015年11月01日起，共时理财将仅支持一张银行卡进行投资以及提现，更换
+银行卡请联系共时理财客服400-1515-805，同时请提供相关证明，共时理财感谢你的理解和支持！</p>
                   </div>
               </div>
-            </div>
-            <div class="pro_two">
-              <div class="t_tlt"></div>
-              <div class="t_txt">
-                <div class="t_text">
-                  <p>昨日收益(元)</p>
-                  <p class="t_text_money">0.00</p>
-                </div>
-                <div class="t_text">
-                  <p>累计收益(元)</p>
-                  <p class="t_text_money">0.00</p>
-                </div>
-                <div class="t_text border_none">
-                  <p>总份额(份)</p>
-                  <p class="t_text_money">0</p>
-                </div>
-              </div>
-              <a class="right" href="javascript:" id="purchase">购买</a>
-            </div>
-            <div class="pro_three">
-              <p>您的理财之旅，将从此刻开始。我们希望每一天这里变化的数字，都会让您愉悦、欢欣~</p>  
-            </div>
-          
           </div>
+
+
     </div>
     <!-- 内容部分结束 -->
 
@@ -146,11 +123,10 @@
     </footer>
     <!-- 底部结束 -->
 
-    <!-- 引入require模块，关联../js/index.js -->
-    <script src="../module/requirejs/require.js" data-main="../js/account"></script>
+    <!-- 引入require模块，关联../js/cashgift.js -->
+    <script src="../module/requirejs/require.js" data-main="../js/cashgift"></script>
     <!-- 单独定义插件模块插件js源 -->
     <script src="../js/require-config.js"></script>
-	
   </body>
 </html>
 

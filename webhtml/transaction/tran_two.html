@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <title>壹投行</title>
     <!--  公共样式 -->
-    <link rel="stylesheet" type="text/css" href="../css/individual.css">
+    <link rel="stylesheet" type="text/css" href="../../css/individual.css">
     <!--  私有样式 -->
-    <link rel="stylesheet" type="text/css" href="../css/public.css">
+    <link rel="stylesheet" type="text/css" href="../../css/public.css">
   </head>
   <body>
     <!-- 头部开始 -->
@@ -25,10 +25,10 @@
               <P class="per_tlt">可用余额</P>
               <p class="per_money"><span>0.00</span>元</p>
               <div class="per_btn">
-                <a href="recharge.html" class="balan_charge">充值</a>
-                <a href="withdrawals.html" class="balan_wals">提现</a>
+                <a href="../recharge.html" class="balan_charge">充值</a>
+                <a href="../withdrawals.html" class="balan_wals">提现</a>
               </div>
-              <div class="pre_show"><a href="record.html">查看所有交易记录</a></div>
+              <div class="pre_show"><a href="../record.html">查看所有交易记录</a></div>
             </div>
             
             <div class="assets">
@@ -39,35 +39,35 @@
               <p>我的积分</p>
               <p>0分</p>
               <p class="ass_btn">
-                <a href="integralmall.html">积分明细</a>
-                <a href="integralmall.html" class="right">积分兑换</a>
+                <a href="../integralmall.html">积分明细</a>
+                <a href="../integralmall.html" class="right">积分兑换</a>
               </p>
             </div>
             <div class="assets_way">
               <ul>
                 <li>
-                  <a href="cashgift.html">我的红包<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
+                  <a href="../cashgift.html">我的红包<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
                 </li>
                 <li>
-                  <a href="contacts.html">人脉收益<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
+                  <a href="../contacts.html">人脉收益<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
                 </li>
                 <li>
-                  <a href="integralmall.html">积分商城<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
+                  <a href="../integralmall.html">积分商城<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
                 </li>
                 <li>
-                  <a href="mybankcard.html">我的银行卡<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
+                  <a href="../mybankcard.html">我的银行卡<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
                 </li>
                 <li>
-                  <a href="invitation.html">邀请好友<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
+                  <a href="../invitation.html">邀请好友<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
                 </li>
                 <li>
-                  <a href="calendar.html">账单日历<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
+                  <a href="../calendar.html">账单日历<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
                 </li>
                 <li>
-                  <a href="welfare.html">福利中心<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
+                  <a href="../welfare.html">福利中心<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
                 </li>
                 <li>
-                  <a href="activity.html">活动大厅<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
+                  <a href="../activity.html">活动大厅<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
                 </li>
               </ul>
               <p class="text-center"><i class="iconfont">&#xe602;</i><a id="proposal" href="javascript:">反馈意见或建议</a></p>
@@ -75,34 +75,24 @@
           </div>
 
           <!--  左侧部分开始 -->
+          <!--  重置交易密码 -->
           <div class="profit right">
               <div class="navigation">
                 <a class="my_age" href="javascript:">我的壹投行</a>
                 <i class="iconfont">&#xe621;</i>
                 <a class="font_red" href="javascript:">账户设置</a>
                 <i class="iconfont">&#xe621;</i>
-                <a href="javascript:">实名认证</a>
+                <a href="javascript:">重置交易密码</a>
               </div>
               <div class="signin">
-                <form id="signin_form">
+                <form id="tran_formone">
                   <div class="signin_box">
-                    <h3>修改您的登录密码</h3>
-                    <p>旧登录密码</p>
-                    <div class="sigrule">
-                      <input name="pwd" placeholder="密码长度在6-20之间"></input>
-                      <div class="errorbox"></div>
-                    </div>
-                    <p>新的登录密码</p>
-                    <div class="sigrule">
-                      <input name="newpwd" class="newpwd" placeholder="密码长度在6-20之间"></input>
-                      <div class="errorbox"></div>
-                    </div>
-                    <p>确认新的登录密码</p>
-                    <div class="sigrule">
-                      <input name="newpwd_two" class="newpwd_two" placeholder="请再次输入上面的密码"></input>
-                      <div class="errorbox"></div>
-                    </div>
-                    <a id="keep" href="javascript:">保存</a>
+                    <h3>重置您的交易密码</h3>
+                    <p>新的交易密码</p>
+                    <input name="newPwd" id="newPwd" placeholder="交易密码为6-20位数字、字母组合"></input>
+                    <p>确认交易密码</p>
+                    <input name="newPwdtwo" placeholder="再次输入上面的交易密码"></input>
+                    <a id="tr_preservation" href="tran_three.html">保存</a>
                   </div>
                 </form>
               </div>
@@ -117,7 +107,7 @@
     <!-- 底部结束 -->
 
     <!-- 引入require模块，关联../js/index.js -->
-    <script src="../module/requirejs/require.js" data-main="../js/signin"></script>
+    <script src="../module/requirejs/require.js" data-main="../js/transactionPwd"></script>
     <!-- 单独定义插件模块插件js源 -->
     <script src="../js/require-config.js"></script>
 	

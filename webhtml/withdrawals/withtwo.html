@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>壹投行</title>
     <!--  公共样式 -->
-    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
     <link rel="stylesheet" type="text/css" href="../../css/individual.css">
     <!--  私有样式 -->
     <link rel="stylesheet" type="text/css" href="../../css/withdrawals.css">
@@ -71,7 +70,7 @@
                         <a href="activity.html">活动大厅<span class="right">1<i class="iconfont">&#xe621;</i></span></a>
                     </li>
                 </ul>
-                <p class="text-center"><i class="iconfont">&#xe608;</i><a id="proposal" href="javascript:">反馈意见或建议</a></p>
+                <p class="text-center"><i class="iconfont">&#xe602;</i><a id="proposal" href="javascript:">反馈意见或建议</a></p>
             </div>
         </div>
 
@@ -106,8 +105,12 @@
                 </div>
                 <form id="ve_form">
                     <div class="draw_money clear">
-                        <p>交易密码</p>
-                        <input class="code" name="code" placeholder="请输入您注册手机接收到的验证码"></input>
+                        <p>验证码</p>
+                        <div class="codebox">
+                            <input class="code" name="code" placeholder="请输入您注册手机接收到的验证码"></input>
+                            <a href="javascript:" class="code_btn">获取验证码</a>
+                        </div>
+                        
                     </div>
                     <a class="submit_btn" id="ve_submit" href="withthree.html">提交</a>
                     <a class="step_btn" id="ve_step" href="../withdrawals.html">上一步</a>
