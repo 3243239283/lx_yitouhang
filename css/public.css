@@ -57,14 +57,22 @@
 /*添加银行卡输入*/
 .bankwrite{height: 178px;border: 1px solid #d4d4d4;padding: 10px 25px;}
 .bankwrite .write_tlt{font-size: 14px;color: #4c4c4c;line-height: 30px;}
-.bankwrite .wri_input input{width: 278px;height: 38px;border: 1px solid #b3b3b3;}
+.bankwrite .wri_input .newbankwrite{line-height:38px;width: 278px;height: 38px;border: 1px solid #b3b3b3;text-indent: 17px;font-size: 12px;color:#404040;}
 .bankwrite .wri_input .wr_input_txt{display: inline-block;font-size: 12px;color:#737373;line-height: 20px;float: right;margin-right: 35px;}
 .bankwrite .wri_input .wr_input_txt a{margin: 10px 50px;border-radius: 50px;padding: 10px 37px;background: #b3b3b3;display: inline-block;font-size: 22px;color: #ffffff;}
-.bankwrite .wri_input{height: 120px;border-bottom: 1px solid #b3b3b3;}
+.writing{background: #ee4e42 !important;color:#ffffff !important;}
+.bankwrite .wri_input{height: 120px;border-bottom: 1px solid #b3b3b3;position: relative;}
+.bankwrite .wri_input .newbankbox{line-height:38px;position: absolute;width: 278px;height: 38px;border: 1px solid #b3b3b3;text-indent: 17px;font-size: 16px;color:#262626;}
 .bankwrite .wri_rule{font-size: 12px;color: #a6a6a6;line-height: 30px;}
 .bankwrite .wri_rule i{color: #2eb3fb;margin-right: 10px;}
-
-
+.mybank .addbank_txt{height: 385px;padding:25px;background: #f5f5f5;}
+.mybank .addbank_txt h3{font-size: 16px;font-weight: 200;text-align: center;color:#262626;line-height: 30px;}
+.mybank .addbank_txt h3 small{color:#ee4e42;}
+.mybank .addbank_txt .add_tent .add_txt_lf{color: #4d4d4d;width:385px;float:left;font-size: 12px;line-height: 30px;}
+.mybank .addbank_txt .add_tent .add_txt_lf small{color:#ee4e42;}
+.mybank .addbank_txt .add_tent .add_txt_rt{width: 204px;float:left;text-align: center;}
+.mybank .addbank_txt .add_tent .add_txt_rt .addimg{width: 140px;height: 105px;background: #dedcdc;}
+.mybank .addbank_txt .add_tent .add_txt_rt p{font-size: 12px;color: #4d4d4d;line-height: 30px;margin-bottom: 20px;}
 /*邀请好友*/
 .invitation{background: #ffffff;border: 1px solid #d4d4d4;height: 886px;padding: 0 127px;}
 .invitation h3{color: #161616;font-size: 26px;line-height: 30px;margin: 53px 0 25px 0;}
@@ -179,7 +187,7 @@
 .reok .rebtn_box .go_back{border:1px solid #ee4e42;color:#ee4e42;}
 
 /*交易记录*/
-.record{background: #ffffff;border: 1px solid #d4d4d4;height: 886px;padding:0 28px;}
+.record{background: #ffffff;border: 1px solid #d4d4d4;height: 902px;padding:0 28px;}
 .record .record_head{margin: 28px 0 22px;}
 .record .record_head input{text-align: center;width: 160px;height: 39px;border: 1px solid #d4d4d4;border-radius: 3px;font-size: 18px;color:#404040;line-height: 39px;}
 .record .record_head label{padding:0 5px;}

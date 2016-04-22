@@ -25,6 +25,7 @@ html, body, div, span, applet, object, iframe,  h1, h2, h3, h4, h5, h6, p, block
   font-size: 100%; 
   vertical-align: baseline; 
   ackground: transparent; 
+  font-family: "微软雅黑";
 }
 
 *{padding:0;margin:0;}

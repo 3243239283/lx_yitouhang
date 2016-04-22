@@ -20,7 +20,7 @@
     
     <!-- 内容部分开始 -->
     <div class="container"> 
-          <div class="balance left">            
+          <div class="balance left">
             <div class="personal">
               <P class="per_tlt">可用余额</P>
               <p class="per_money"><span>0.00</span>元</p>
@@ -87,11 +87,12 @@
                     <div class="bankwrite">
                       <p class="write_tlt">输入银行卡卡号</p>
                       <div class="wri_input">
-                        <input type="text"></input>
+                        <input type="text" name="newbankcard" class="newbankwrite"></input>
+                        <div class="newbankbox" style="display:none;"></div>
                         <div class="wr_input_txt">
                           <p>请确保您输入的卡号同如下信息相匹配</p>
                           <p>持卡人：<span>缪缪</span> 身份证号：<span>235023*******0021</span></p>
-                          <a href="javascript:">去绑定</a>
+                          <a id="binding" href="bankadd.html">去绑定</a>
                         </div>
                       </div>
                       <div class="wri_rule">
@@ -124,9 +125,9 @@
     <!-- 底部结束 -->
 
     <!-- 引入require模块，关联../js/cashgift.js -->
-    <script src="../module/requirejs/require.js" data-main="../js/cashgift"></script>
+    <script src="../../module/requirejs/require.js" data-main="../../js/bankwrite"></script>
     <!-- 单独定义插件模块插件js源 -->
-    <script src="../js/require-config.js"></script>
+    <script src="../../js/require-config.js"></script>
   </body>
 </html>
 
