@@ -85,7 +85,7 @@ header .head_tlt .account_btn{float:right;margin-top: 35px;}
 .balance .personal .per_btn .balan_wals{background: #00c021;margin-left: 36px;}
 
 /*底部样式*/
-footer{min-width:1200px;height:200px;clear:both;font-size:18px;color:#9b9b9b;text-align: center;line-height: 200px;}
+footer{background:#4d4d4d;min-width:1200px;height:200px;clear:both;font-size:18px;color:#9b9b9b;text-align: center;line-height: 200px;}
 
 
 /*实名认证样式*/
