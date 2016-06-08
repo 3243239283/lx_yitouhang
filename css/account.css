@@ -1,27 +1,32 @@
   /*pro_one*/
-.pro_one{background-color: #ffffff;}
+.pro_one{background-color: #ffffff;height: 146px;}
 .profit .profit_number{margin: 0 0 0 20px;padding: 10px 20px 10px 0;width:504px;border-right:1px solid #d1d1d1;}
-.profit .profit_number ul li{line-height: 30px;color:#000000;font-size: 16px;font-weight: 600;}
+.profit .profit_number ul li{display: inline-block;height: 126px;float: left;}
 .profit .profit_number ul li i{color:#f56f69;font-size: 25px !important;}
+.profit .profit_number ul li .num_tlt{margin: 13px 0 0 10px;display:inline-block;width: 100px;height: 100px;}
+.profit .profit_number ul li .num_tlt img{border-radius: 50%;}
+.profit .profit_number ul li .numtxt{margin: 0 0 0 10px;}
+.profit .profit_number ul li .numtxt p{font-size: 14px;color: #a6a6a6;line-height: 25px;}
+.profit .profit_number ul li .numtxt span{margin:0 3px;}
+.profit .profit_number ul li .numtxt .txt_tlt{font-size: 16px !important;color:#000000;line-height: 40px;margin: 15px 0 0 0;}
 .agency{line-height: 30px;margin: 13px 20px;font-size: 16px;color: #5b5b5b;width: 288px;display: inline-block;}
 .agency .age_tlt i{color:#525252;}
-.age_name .realname{width:65px;}
-.age_name .realname i{font-size: 62px;line-height: 50px;color: #808080;}
-.go_auth{width:200px;}
-#go_name{margin-left: 25px;color:#328ad4;}
+.age_name ul li{display:inline-block;width: 96px;float: left;}
+.age_name ul li img,a{text-align: center;display: block;margin: 0 auto;border-radius: 50%;font-size: 14px;color: #a6a6a6;}
   /*pro_two*/
 .pro_two{background-color: #ffffff;margin-top: 19px;height:105px;border:1px solid #d1d1d1;position:relative;}
 .pro_two .t_tlt{position:absolute;width: 122px;height: 122px;left:-1px;top:-9px;background: url(../image/my_122x122.png) no-repeat;}
 .pro_two .t_txt{width:680px;height: 64px;position:absolute;top:20px;left:121px;}
-.pro_two .t_txt .t_text{font-weight: 600;height: 64px;width:225px;float:left;border-right: 1px solid #d1d1d1;text-align: center;line-height: 32px;font-size: 16px;color:#000000;}
+.pro_two .t_txt .t_text{font-weight: 600;height: 64px;width:225px;float:left;border-right: 1px solid #d1d1d1;text-align: center;line-height: 32px;font-size: 16px;color:#666666;}
 .t_text_money{font-size: 24px;color:#f34f47;}
 #purchase{width: 53px;height: 24px;background: #f34f47;border-radius: 2px;color: #fff;line-height:24px;text-align: center;margin: 16px 18px 0 0;}
   /*pro_three*/
 .pro_three{margin-top: 19px;font-size: 18px;color:#676767;line-height: 107px;text-indent: 20px;}
 .pro_three .th_left{width: 120px;height: 100%;float: left;margin-left: 20px;}
 .pro_three .th_right{width: 731px;height:100%;float:left;position: relative;}
-.pro_three .th_left .history{width:36px;height: 36px;background: #ffffff;border:1px solid #f34f47;border-radius: 50%;    line-height: 36px;text-indent: 5px;font-size: 12px;color:#f34f47;}
+.pro_three .th_left .history{position: relative;width:36px;height: 36px;background: #ffffff;border:1px solid #f34f47;border-radius: 50%;    line-height: 36px;text-indent: 5px;font-size: 12px;color:#f34f47;}
 .pro_three .th_left .history i{font-size: 26px;line-height: 31px;}
+.pro_three .th_left .history .to_txt{position:absolute;line-height: 19px;top:0;left:38px;color:#666666;width:80px;}
 .pro_three .th_left .line{background: #d4d4d4;width:2px;margin-left: 18px;}
 .pro_three .th_right .table{width:100%;background: #ffffff;margin-bottom: 20px;}
 .pro_three .th_right .table table{width:100%;border-collapse:collapse}
@@ -33,10 +38,10 @@
 .pro_three .th_right .table table tbody tr td:first-child{color:#a6a6a6;text-align: center;width:20%;}
 .pro_three .th_right .table table tbody tr td:nth-child(2){text-align: left;width:50%;color: #666666;}
 .pro_three .th_right .table table tbody tr td:last-child{text-align: left;width:30%;}
-.fgreen{color:#2bad65;}
-.fblue{color:#4bb7ff;}
-.fred{color:#e94d40;}
-.fyellow{color:#f78d27;}
+.fgreen{color:#2bad65 !important;}
+.fblue{color:#4bb7ff !important;}
+.fred{color:#e94d40 !important;}
+.fyellow{color:#f78d27 !important;}
 .pro_three .th_right .table table span{margin:0 5px;}
 .pro_three .th_right .table table i.iconfont{font-size: 22px;}
 .pro_three .th_right .table table tbody tr td:last-child a{text-align: center;display: inline-block;margin-left: 20px;}
